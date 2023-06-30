@@ -1,0 +1,170 @@
+/*reset de la page*/
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+/*on définis la police et la taille d'écriture pour nos pages */
+body{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    margin: 0 ;
+}
+/*taille du logo à revoir*/
+/*premiere partie du header
+Comportant l'adresse et les réseaux
+*/
+.flex {
+    display: flex; 
+}
+.container{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #232323;
+    line-height: 1.8;
+    flex: 50%;
+}
+/* le menus de nos pages*/
+nav{
+    width: 100%;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: #3da9fc;
+    font-size: large;
+    padding: 15px 15px 15px;
+    box-sizing: border-box;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #3da9fc;   
+}
+nav li{
+    list-style-type: none;
+    flex: 0 0 15%;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover {
+    border-bottom: 5px solid #ff8906;
+    background-color: rgba(64, 200, 130, 0.15);
+}
+.wrapper{
+    display: flex;
+}
+
+/*caroussel*/
+.carousel{
+    padding-bottom: 10px;
+}
+.carousel-item > img{
+    height: 500px;
+    width: 400px;
+
+}
+/*A propos*/
+.info{
+    display: flex;  
+    flex-direction: row-reverse;
+    padding-top: 35px;
+    margin: 10px;
+    box-sizing: border-box;
+    
+
+}
+.prent{
+    align-content: right;
+    border: 1px transparent black;
+    background-color: #f9f4ef;
+    margin: 5px;
+}
+.prent h1 p{
+    margin: 10px;
+}
+.pro > img{
+    align-content: left;
+    width: 70%;
+    height: 85%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px blue;
+}
+/*End a propos*/
+/* Contact.html*/
+
+/*map*/
+.map{
+    display: flex;
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+.pre{
+    display: flex;
+    margin: 10px 10px;
+    width: 20%;
+    justify-content: end;
+}
+.for{
+    align-items: right;
+    margin: 15px;
+    width: 20%;
+}
+
+/*footer*/
+.foot{
+    display: flex;
+    background-color: #001858;
+    font-size: small;  
+    padding-left: 300px ;
+    line-height: 25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.propos{
+    color: #fff;
+    margin: 20px;
+    
+}
+.lien-utiles{
+    margin: 20px;
+    color: #fff;
+    padding-left: 150px;
+}
+    
+.lien-utiles a{
+    text-decoration: none;
+    color: #fff;
+}
+.foot h2{
+        text-decoration: underline blue 4px;
+        font-size: 18px;
+        color: #fff;
+        
+}
+.log{
+    display: flex;
+    padding: 0px;
+}
+.foot p {
+    margin: 5px;
+}
+.contact{
+    margin: 20px;
+    padding-left: 150px;
+}
+.contact i {
+    display: flex;
+    line-height: 25px;
+
+}
+.ico{
+    color: #fff;
+    font-family:'Lora', serif ;
+    padding-top: 0px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+/* Footer-end*/
+
