@@ -55,6 +55,7 @@ nav a:hover {
 .wrapper{
     display: flex;
 }
+/* End-menu*/
 
 /*caroussel*/
 .carousel{
@@ -65,6 +66,8 @@ nav a:hover {
     width: 400px;
 
 }
+/*end carroussel*/
+
 /*A propos*/
 .info{
     display: flex;  
@@ -92,35 +95,67 @@ nav a:hover {
     box-shadow: 5px 5px 5px 5px blue;
 }
 /*End a propos*/
-/* Contact.html*/
+/*Nos services
+Nous allons dans cette parti stylisé les élèments qui compsent la page nos services*/
+.start_service > img {
+    width: 1500px;
+    padding: 10px 0 10px 25px;
+}
+.start_service{
+    display:flex ;
+    justify-content: center;
+}
 
-/*map*/
+/*End-nos services*/
+
+/* Contact.html*/
 .map{
-    display: flex;
-    padding-top:20px ;
-    padding-bottom: 20px;
+    margin : 0 auto ;
+    padding: 0 auto;
 }
 .pre{
     display: flex;
-    margin: 10px 10px;
-    width: 20%;
-    justify-content: end;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+.for-example{
+    border: 1px solid #c8d6e5;
+    border-radius: 4px;
+    height: 100%;
+    padding: 55px;
+    margin: 60px;
+    padding-bottom: 25px;
+   
+}
+.for-example :hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid #c8d6e5;
+    border-radius: 4px;
+
 }
 .for{
-    align-items: right;
-    margin: 15px;
-    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 15px;
+    
 }
 
+.form-control{
+    width: 150%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+}
 /*footer*/
 .foot{
     display: flex;
-    background-color: #001858;
+    background-color: #2e86de;
     font-size: small;  
     padding-left: 300px ;
     line-height: 25px;
     padding-top: 25px;
     box-sizing: border-box;
+    color: white;
 }
 .propos{
     color: #fff;
@@ -129,18 +164,22 @@ nav a:hover {
 }
 .lien-utiles{
     margin: 20px;
-    color: #fff;
+    color: white;
     padding-left: 150px;
 }
     
 .lien-utiles a{
     text-decoration: none;
     color: #fff;
+
+}
+.lien-utiles a:hover{
+    color: #232323;
 }
 .foot h2{
-        text-decoration: underline blue 4px;
+        
         font-size: 18px;
-        color: #fff;
+        
         
 }
 .log{
@@ -154,17 +193,9 @@ nav a:hover {
     margin: 20px;
     padding-left: 150px;
 }
-.contact i {
-    display: flex;
-    line-height: 25px;
-
-}
-.ico{
-    color: #fff;
-    font-family:'Lora', serif ;
-    padding-top: 0px;
-    text-decoration: none;
-    letter-spacing: 0.5px;
+.copyright > p{
+    text-align: center;
+    
 }
 /* Footer-end*/
 
