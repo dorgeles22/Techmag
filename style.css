@@ -1,15 +1,27 @@
-/*reset de la page*/
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 10px;
+    font-family: "Francois One", sans-serif;
+    background-color:  #FFFFFF; 
+  }
+/*reset de la page
 *{
     padding: 0px;
     margin: 0px;
 
 }
-/*on définis la police et la taille d'écriture pour nos pages */
+/*on définis la police et la taille d'écriture pour nos pages 
 body{
     font-family: 'Lora', serif;
     font-size: 16px;
     margin: 0 ;
 }
+*/
 /*taille du logo à revoir*/
 /*premiere partie du header
 Comportant l'adresse et les réseaux
@@ -27,6 +39,7 @@ Comportant l'adresse et les réseaux
 /* le menus de nos pages*/
 nav{
     width: 100%;
+    height: 100%;
     margin: 0px;
     position: sticky;
     top: 0px;
@@ -109,9 +122,9 @@ Nous allons dans cette parti stylisé les élèments qui compsent la page nos se
 /*End-nos services*/
 
 /* Contact.html*/
-.map{
-    margin : 0 auto ;
-    padding: 0 auto;
+.map, iframe{
+   margin: 10px 10px 10px 10px;
+   padding: 10px 10px 10px 10px;
 }
 .pre{
     display: flex;
@@ -125,14 +138,9 @@ Nous allons dans cette parti stylisé les élèments qui compsent la page nos se
     padding: 55px;
     margin: 60px;
     padding-bottom: 25px;
-   
+    
 }
-.for-example :hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: 1px solid #c8d6e5;
-    border-radius: 4px;
 
-}
 .for{
     margin: 10px;
     padding: 10px;

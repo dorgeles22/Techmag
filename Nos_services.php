@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,9 +18,11 @@
     <title>Nos services│ Spécialisé dans le marquage et l'emballage industrielle</title>
 </head>
 <body>
-     
+     <header>
        <?php include 'menu.php' ?>
-    <main>        <section >
+       </header>
+    <main>       
+        <section class="container text-center my-5">
             <!--start of the service section -->
             <div class="start_service">
                 <img src="/image/services/techicien 2.jpg" alt="photo de couverture" id="affiche publicitaire">
@@ -52,33 +54,7 @@
      
   
      <!--pieds de page-->
-     <footer>
-        <div class="foot">
-          <div class="propos">
-              <h2>A PROPOS </h2>
-              <p>
-                  Techmag est une entreprise, spécialisé<br>  dans le marquage  et l'emballage industrielle. <br>
-                  Fort de plus vingt années d'expérience nous vous <br> proposons une large gammes 
-                   de produits <br> couvrant tous les secteurs d'activité.
-              </p>
-          </div>
-          <div class="lien-utiles">
-              <h2> LIENS UTILES </h2>
-              <li><a href="Acceuil.html">Acceuil</a></li>
-              <li><a href="A_propos.html"> A propos</a></li>
-              <li><a href="nos_produits.html">Nos produits</a></li>
-              <li><a href="Nos_services.html">Nos services</a></li>
-              <li><a href="Contact.html">Contacts</a></li>
-          </div>
-           <div class="contact">
-              <h2>Contacts</h2>
-              <i class="fa-solid fa-house" style="color: #0852d4;"> <span class="ico">&nbsp; Koumassi VGE résidence Halama villa 51</span></i>
-              <i class="fa-solid fa-envelope" style="color: #0852d4;"> <Span class="ico">&nbsp; info@Techmagsarl-ci.com</Span> </i>
-              <i class="fa-solid fa-phone" style="color: #0f60eb;"><span class="ico">&nbsp; 07 07 98 33 42 │ 01 42 03 98 98</Span> </i>  
-           </div>
-  
-        </div>
-      </footer>
+     <?php include 'footer.php';?>
     
 </body>
 </html>

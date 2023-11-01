@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +35,7 @@
         <!--logo-->
         <div class="wrapper">
           <div class="pic">
-             <a href="index.html"><img src="image/Logo.jpg" alt="logo de Techmag" style="width: 214.9px ;" ></a> 
+             <a href="index.html"><img src="image/Logo.jpg" alt="logo_Techmag" style="width: 214.9px ;" ></a> 
            </div>
            
         </div>
@@ -51,3 +51,4 @@
         </ul>
 
     </nav>
+</body>

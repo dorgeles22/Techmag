@@ -15,34 +15,29 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
    <!--style CSS-->
     <link rel="stylesheet" href="style.css">
-    <title>A propos│ Spécialisé dans le marquage et l'emballage industrielle</title>
+    <title>Acceuil│ Spécialisé dans le marquage et l'emballage industrielle</title>
 </head>
 <body>
-<header>
-      <?php include 'menu.php'?>
+    <header>
+        
+        <div class="flex">
+            <!-- adressse et téléphone-->
+           <div class="container">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Koumassi VGE résidence Halama villa 51 &ensp; &ensp;<i class="fa-sharp fa-solid fa-phone"></i> 07 07 98 33 42 │ 01 42 03 98 98 
+           </div>
+           <!--réseau sociaux-->
+           <div class="container">
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #225fc9;"></a></i>&nbsp;
+            <a href="#"><i class="fa-brands fa-linkedin" style="color: #225fc9;"></i></a>&nbsp;
+            <a href=""><i class="fa-brands fa-instagram" style="color: #225fc9;"></i></a>
+           </div>
+        </div>
+        <!--logo-->
+        <div class="wrapper">
+          <div class="pic">
+             <a href="index.html"><img src="image/Logo.jpg" alt="logo_Techmag" style="width: 214.9px ;" ></a> 
+           </div>
+           
+        </div>
     </header>
-      
-    <main>
-        <section>
-            <div class="info">
-              <div class="prent">
-                <h1>Présentation</h1>
-                <p>
-                  Techmag est une entreprise spécialisé, dans le marquage industrielle, l'emballage et la fourniture industrielle.
-                  Depuis plus vingt ans (20 ans) nous aidons les entreprises industrielle à atteindre leurs objectifs de production grâce à notre expertise et la qualité de nos équipements.
-                </p>
-              </div>
-              <div class="pro">
-                <img src="image/collage.png" alt="photo-collage" >
-
-              </div>
-            </div>
-
-        </section>
-    </main>
-     <!--pieds de page-->
-     
-     
- <?php include 'footer.php';?>  
 </body>
-</html>
